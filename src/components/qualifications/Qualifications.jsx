@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './qualifications.css'
 
 const Qualifications = () => {
-    const [toggleState, setToggleState] = useState(1);
+    const [toggleState, setToggleState] = useState(2);
     const toggleTab = (index) => {
         setToggleState(index);
     }
@@ -12,11 +12,11 @@ const Qualifications = () => {
             <span className="section__subtitle">My Personal Journey</span>
             <div className="qualifications__container container">
                 <div className="qualifications__tabs">
-                    <div className={toggleState === 2 ? "qualifications__button qualifications__active button--flex" : "qualifications__button button--flex"} onClick={() => toggleTab(2)}>
+                    <div className={toggleState === 1 ? "qualifications__button qualifications__active button--flex" : "qualifications__button button--flex"} onClick={() => toggleTab(2)}>
                         <i className="uil uil-graduation-cap qualifications__icon"></i>
                         Education
                     </div>
-                    <div className={toggleState === 1 ? "qualifications__button qualifications__active button--flex" : "qualifications__button button--flex"} onClick={() => toggleTab(1)}>
+                    <div className={toggleState === 2 ? "qualifications__button qualifications__active button--flex" : "qualifications__button button--flex"} onClick={() => toggleTab(1)}>
                         <i className="uil uil-briefcase-alt qualifications__icon"></i>
                         Experience
                     </div>
