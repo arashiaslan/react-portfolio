@@ -27,9 +27,9 @@ const Qualifications = () => {
                         <div className="qualifications__data">
                             <div>
                                 <h3 className="qualifications__title">Bachelor Degree</h3>
-                                <span className="qualifications__subtitle">Computer Science</span>
+                                <span className="qualifications__subtitle">Software Engineering</span>
                                 <div className="qualifications__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2019-2022
+                                    <i className="uil uil-calendar-alt"></i> 2024-Now
                                 </div>
                             </div>
                             <div>
@@ -45,20 +45,20 @@ const Qualifications = () => {
                                 <span className="qualifications__line"></span>
                             </div>
                             <div>
-                                <h3 className="qualifications__title">Master Degree</h3>
-                                <span className="qualifications__subtitle">Computer Science</span>
+                                <h3 className="qualifications__title">Bachelor Degree</h3>
+                                <span className="qualifications__subtitle">Arabic Literature</span>
                                 <div className="qualifications__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2019-2022
+                                    <i className="uil uil-calendar-alt"></i> 2023
                                 </div>
                             </div>
                         </div>
                         {/* line */}
                         <div className="qualifications__data">
                             <div>
-                                <h3 className="qualifications__title">Bachelor Degree</h3>
-                                <span className="qualifications__subtitle">Chemistry Science</span>
+                                <h3 className="qualifications__title">Senior Highschool</h3>
+                                <span className="qualifications__subtitle">MA Nurul Hadid</span>
                                 <div className="qualifications__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2019-2022
+                                    <i className="uil uil-calendar-alt"></i> 2020-2023
                                 </div>
                             </div>
                             <div>
@@ -74,10 +74,10 @@ const Qualifications = () => {
                                 <span className="qualifications__line"></span>
                             </div>
                             <div>
-                                <h3 className="qualifications__title">Master Degree</h3>
-                                <span className="qualifications__subtitle">Phsyics Science</span>
+                                <h3 className="qualifications__title">Junior Highschool</h3>
+                                <span className="qualifications__subtitle">SMPIT Ulul Albab</span>
                                 <div className="qualifications__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2019-2022
+                                    <i className="uil uil-calendar-alt"></i> 2018-2020
                                 </div>
                             </div>
                         </div>
