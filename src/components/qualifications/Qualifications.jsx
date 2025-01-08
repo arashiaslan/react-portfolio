@@ -12,18 +12,18 @@ const Qualifications = () => {
             <span className="section__subtitle">My Personal Journey</span>
             <div className="qualifications__container container">
                 <div className="qualifications__tabs">
-                    <div className={toggleState === 1 ? "qualifications__button qualifications__active button--flex" : "qualifications__button button--flex"} onClick={() => toggleTab(2)}>
+                    <div className={toggleState === 2 ? "qualifications__button qualifications__active button--flex" : "qualifications__button button--flex"} onClick={() => toggleTab(2)}>
                         <i className="uil uil-graduation-cap qualifications__icon"></i>
                         Education
                     </div>
-                    <div className={toggleState === 2 ? "qualifications__button qualifications__active button--flex" : "qualifications__button button--flex"} onClick={() => toggleTab(1)}>
+                    <div className={toggleState === 1 ? "qualifications__button qualifications__active button--flex" : "qualifications__button button--flex"} onClick={() => toggleTab(1)}>
                         <i className="uil uil-briefcase-alt qualifications__icon"></i>
                         Experience
                     </div>
                 </div>
 
                 <div className="qualifications__sections">
-                    <div className={toggleState === 2 ? "qualifications__content qualifications__content-active" : "qualifications__content"}>
+                    <div className={toggleState === 1 ? "qualifications__content qualifications__content-active" : "qualifications__content"}>
                         <div className="qualifications__data">
                             <div>
                                 <h3 className="qualifications__title">Bachelor Degree</h3>
@@ -83,13 +83,13 @@ const Qualifications = () => {
                         </div>
                     </div>
 
-                    <div className={toggleState === 1 ? "qualifications__content qualifications__content-active" : "qualifications__content"}>
+                    <div className={toggleState === 2 ? "qualifications__content qualifications__content-active" : "qualifications__content"}>
                         <div className="qualifications__data">
                             <div>
-                                <h3 className="qualifications__title">Bachelor Degree</h3>
-                                <span className="qualifications__subtitle">Computer Science</span>
+                                <h3 className="qualifications__title">Programmer Internship</h3>
+                                <span className="qualifications__subtitle">Jakarta</span>
                                 <div className="qualifications__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2019-2022
+                                    <i className="uil uil-calendar-alt"></i> 2025
                                 </div>
                             </div>
                             <div>
@@ -105,20 +105,20 @@ const Qualifications = () => {
                                 <span className="qualifications__line"></span>
                             </div>
                             <div>
-                                <h3 className="qualifications__title">Master Degree</h3>
-                                <span className="qualifications__subtitle">Computer Science</span>
+                                <h3 className="qualifications__title">Google Dev Festival</h3>
+                                <span className="qualifications__subtitle">Bogor</span>
                                 <div className="qualifications__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2019-2022
+                                    <i className="uil uil-calendar-alt"></i> 2024
                                 </div>
                             </div>
                         </div>
                         {/* line */}
                         <div className="qualifications__data">
                             <div>
-                                <h3 className="qualifications__title">Bachelor Degree</h3>
-                                <span className="qualifications__subtitle">Chemistry Science</span>
+                                <h3 className="qualifications__title">HTML CSS PHP Mentor</h3>
+                                <span className="qualifications__subtitle">IT Extracurricular</span>
                                 <div className="qualifications__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2019-2022
+                                    <i className="uil uil-calendar-alt"></i> 2023
                                 </div>
                             </div>
                             <div>
