@@ -23,7 +23,7 @@ const Qualifications = () => {
                 </div>
 
                 <div className="qualifications__sections">
-                    <div className={toggleState === 1 ? "qualifications__content qualifications__content-active" : "qualifications__content"}>
+                    <div className={toggleState === 2 ? "qualifications__content qualifications__content-active" : "qualifications__content"}>
                         <div className="qualifications__data">
                             <div>
                                 <h3 className="qualifications__title">Bachelor Degree</h3>
@@ -48,7 +48,7 @@ const Qualifications = () => {
                                 <h3 className="qualifications__title">Bachelor Degree</h3>
                                 <span className="qualifications__subtitle">Arabic Literature</span>
                                 <div className="qualifications__calendar">
-                                    <i className="uil uil-calendar-alt"></i> 2023
+                                    <i className="uil uil-calendar-alt"></i> 2023 - 2024 (Retired)
                                 </div>
                             </div>
                         </div>
@@ -83,7 +83,7 @@ const Qualifications = () => {
                         </div>
                     </div>
 
-                    <div className={toggleState === 2 ? "qualifications__content qualifications__content-active" : "qualifications__content"}>
+                    <div className={toggleState === 1 ? "qualifications__content qualifications__content-active" : "qualifications__content"}>
                         <div className="qualifications__data">
                             <div>
                                 <h3 className="qualifications__title">Bachelor Degree</h3>
