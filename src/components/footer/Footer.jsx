@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className="footer">
             <div className="footer__container container">
-                <h1 className="footer__title">Imad</h1>
+                <h1 className="footer__title">Aeshoku</h1>
 
                 <ul className="footer__list">
                     <li>
@@ -20,11 +20,11 @@ const Footer = () => {
                 </ul>
 
                 <div className="footer__social">
-                    <a href="https://www.instagram.com/" className="footer__social-link" target='_blank'><i className="bx bxl-instagram"></i></a>
-                    <a href="https://www.github.com/" className="footer__social-link" target='_blank'><i className="bx bxl-github"></i></a>
-                    <a href="https://www.linkedin.com/" className="footer__social-link" target='_blank'><i className="bx bxl-linkedin"></i></a>
+                    <a href="https://www.instagram.com/imaqilmj" className="footer__social-link" target='_blank'><i className="bx bxl-instagram"></i></a>
+                    <a href="https://www.github.com/arashiaslan" className="footer__social-link" target='_blank'><i className="bx bxl-github"></i></a>
+                    <a href="https://www.linkedin.com/in/imadaqilmj/" className="footer__social-link" target='_blank'><i className="bx bxl-linkedin"></i></a>
                 </div>
-                <span className="footer__copy">&#169; Aeshoku. All rights reserved</span>
+                <span className="footer__copy">&#169; Aeshoku. All rights reserved <br /> <small> Build with React </small> </span>
             </div>
         </footer>
     )

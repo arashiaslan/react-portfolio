@@ -10,13 +10,13 @@ const Services = () => {
   return (
     <section className="services section" id="services">
         <h2 className="section__title">Services</h2>
-        <span className="section__subtitle">What i offer</span>
+        <span className="section__subtitle">What I Offer</span>
 
         <div className="services__container container grid">
             <div className="services__content">
                 <div>
                     <i className="uil uil-globe services__icon"></i>
-                    <h3 className="services__title">Web Dev</h3>
+                    <h3 className="services__title">Web <br /> Developer</h3>
                 </div>
 
                 <span className="services__button" onClick={() => toggleTab(1)}>
@@ -51,7 +51,7 @@ const Services = () => {
             <div className="services__content">
                 <div>
                     <i className="uil uil-arrow services__icon"></i>
-                    <h3 className="services__title">Graphic<br />Design</h3>
+                    <h3 className="services__title">App <br /> Developer</h3>
                 </div>
 
                 <span className="services__button"  onClick={() => toggleTab(2)}>
@@ -86,7 +86,7 @@ const Services = () => {
             <div className="services__content">
                 <div>
                     <i className="uil uil-scenery services__icon"></i>
-                    <h3 className="services__title">Illustration</h3>
+                    <h3 className="services__title">Graphic <br /> Design</h3>
                 </div>
 
                 <span className="services__button" onClick={() => toggleTab(3)}>

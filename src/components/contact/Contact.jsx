@@ -50,8 +50,8 @@ const Contact = () => {
                         <div className="contact__card">
                             <i className="bx bx-mail-send contact__card-icon"></i>
                             <h3 className="contact__card-title">Email</h3>
-                            <span className="contact__card-data">user@gmail.com</span>
-                            <a href="mailto:user@gmail.com" className="contact__button">
+                            <span className="contact__card-data">imaqil.mj@gmail.com</span>
+                            <a href="mailto:imaqil.mj@gmail.com" className="contact__button">
                                 Write me {" "} <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
                         </div>
@@ -59,17 +59,17 @@ const Contact = () => {
                         <div className="contact__card">
                             <i className="bx bxl-whatsapp contact__card-icon"></i>
                             <h3 className="contact__card-title">Whatsapp</h3>
-                            <span className="contact__card-data">999-888-777</span>
+                            <span className="contact__card-data">+62857-8523-3923</span>
                             <a href="https://wa.me/+6285785233923" className="contact__button" target="_blank" rel="noreferrer">
                                 Write me {" "}<i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
                         </div>
 
                         <div className="contact__card">
-                            <i className="bx bxl-messenger contact__card-icon"></i>
-                            <h3 className="contact__card-title">Messenger</h3>
-                            <span className="contact__card-data">user.fb123</span>
-                            <a href="https://m.me/user.fb123" className="contact__button" target="_blank" rel="noreferrer">
+                            <i className="bx bxl-instagram contact__card-icon"></i>
+                            <h3 className="contact__card-title">Instagram</h3>
+                            <span className="contact__card-data">@imaqilmj</span>
+                            <a href="https://www.instagram.com/imaqilmj" className="contact__button" target="_blank" rel="noreferrer">
                                 Write me {" "} <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
                         </div>
