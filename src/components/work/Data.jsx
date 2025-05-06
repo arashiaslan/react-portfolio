@@ -1,12 +1,12 @@
 import Work1 from "../../assets/work/work1.jpg";
-import Aoc from "../../assets/work/cryptarithm.png";
-import Lingkungan from "../../assets/work/lingkungan.png";
-import Rebah from "../../assets/work/rebah.png";
-import Madnote from "../../assets/work/madnote.png";
-import Kopikita from "../../assets/work/kopikita.png";
-import Kalkulafiq from "../../assets/work/kalkulafiq.png";
-import Bdashboard from "../../assets/work/b-medix-dashboard.png";
-import Bukber from "../../assets/work/bukber.png";
+import Aoc from "../../assets/work/cryptarithm.PNG";
+import Lingkungan from "../../assets/work/lingkungan.PNG";
+import Rebah from "../../assets/work/rebah.PNG";
+import Madnote from "../../assets/work/madnote.PNG";
+import Kopikita from "../../assets/work/kopikita.PNG";
+import Kalkulafiq from "../../assets/work/kalkulafiq.PNG";
+import Bdashboard from "../../assets/work/b-medix-dashboard.PNG";
+import Bukber from "../../assets/work/bukber.PNG";
 
 export const projects = [
     {
