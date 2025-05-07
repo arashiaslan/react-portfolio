@@ -7,6 +7,7 @@ import Kopikita from "../../assets/work/kopikita.PNG";
 import Kalkulafiq from "../../assets/work/kalkulafiq.PNG";
 import Bdashboard from "../../assets/work/b-medix-dashboard.PNG";
 import Bukber from "../../assets/work/bukber.PNG";
+import Kuewqu from "../../assets/work/kuewku.PNG";
 
 export const projects = [
     {
@@ -70,6 +71,13 @@ export const projects = [
         image: Bdashboard,
         title: "B-Medix Admin Dashboard",
         demo: "https://arashiaslan.github.io/b-medix-dashboard/",
+        category: "Web"
+    },
+    {
+        id: 9,
+        image: Kuewqu,
+        title: "Kuewku",
+        demo: "https://aesh-kuewku.vercel.app/",
         category: "Web"
     },
 ];
