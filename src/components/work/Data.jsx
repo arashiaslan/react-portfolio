@@ -74,7 +74,7 @@ export const projects = [
         category: "Web"
     },
     {
-        id: 9,
+        id: 10,
         image: Kuewqu,
         title: "Kuewku",
         demo: "https://aesh-kuewku.vercel.app/",
