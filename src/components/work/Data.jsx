@@ -35,7 +35,7 @@ export const projects = [
         id: 4,
         image: Kopikita,
         title: "Kopi Kita",
-        demo: "https://aesh-kopikita.vercel.app/",
+        demo: "https://kopikita-aesh.vercel.app/",
         category: "Web"
     },
     {
@@ -56,7 +56,7 @@ export const projects = [
         id: 7,
         image: Kalkulafiq,
         title: "FiqihKulator",
-        demo: "https://aesh-fikihkulator.vercel.app/",
+        demo: "https://fikihculator-aesh.vercel.app/",
         category: "App"
     },
     {
@@ -77,7 +77,7 @@ export const projects = [
         id: 10,
         image: Kuewqu,
         title: "Kuewku",
-        demo: "https://aesh-kuewku.vercel.app/",
+        demo: "https://kuewku-aesh.vercel.app/",
         category: "Web"
     },
 ];
