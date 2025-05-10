@@ -7,7 +7,7 @@ import Kopikita from "../../assets/work/kopikita.PNG";
 import Kalkulafiq from "../../assets/work/kalkulafiq.PNG";
 import Bdashboard from "../../assets/work/b-medix-dashboard.PNG";
 import Bukber from "../../assets/work/bukber.PNG";
-import Kuewqu from "../../assets/work/kuewku.PNG";
+import Kuewqu from "../../assets/work/kuewqu.PNG";
 
 export const projects = [
     {
